@@ -107,6 +107,7 @@ def main():
         elif command == '1':
             lista = citire_lista()
         elif command == '2':
+            test_get_longest_alternating_signs()
             lista_semne_alt = get_longest_alternating_signs(lista)
             print(lista_semne_alt)
         elif command == '3':
